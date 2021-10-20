@@ -48,6 +48,7 @@ header {
 
 header i {
 	font-size: 20px;
+	cursor: pointer;
 	color: var(--whiteNetflix);
 }
 
@@ -56,6 +57,7 @@ header i {
 	color: var(--redNetflix);
 	font-size: 30px;
 	font-family: "Bebas Neue", cursive;
+	cursor: pointer;
 }
 
 .navigation a {
@@ -63,15 +65,11 @@ header i {
 	font-size: 14px;
 }
 
-.rightMenu {
-	display: flex;
-	align-items: center;
-	margin-bottom: 10px;
-}
-
 .avatarProfile {
 	margin-left: 20px;
 	margin-right: 10px;
+	cursor: pointer;
+
 }
 
 .avatarProfile img {
@@ -128,6 +126,7 @@ header i {
 	margin-left: 20px;
 	font-size: 20px;
 	font-weight: 600;
+	cursor: pointer;
 }
 
 .watchButton button {
